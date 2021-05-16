@@ -85,9 +85,9 @@
       </div>
 
       <div class="row section" id="about">
-        <div class="col-sm-4 cust-grey px-5 pt-5 pb-5">
-          <h1>About Me</h1>
-          <p class="lead text-justify">
+        <div class="about-me col-sm-4 cust-grey px-5 pt-5 pb-5">
+          <h1 class="about-header">About Me</h1>
+          <p class="about-text lead text-justify">
             You can trust me, I'm also a lawyer. I practiced law for
             approximately five years before deciding to follow my true passion:
             web development. At the age of eleven I began teaching myself how to
@@ -121,11 +121,12 @@
               pt-5
             "
           >
-            <h1 class="d-flex justify-content-center tech-font">
+            <h1 class="tech-header d-flex justify-content-center tech-font">
               Technologies
             </h1>
             <div
               class="
+                tech-icons
                 row row-cols-1 row-cols-md-2
                 g-4
                 h-100
@@ -199,12 +200,13 @@
 
       <div class="row" id="portfolio">
         <div class="col-sm cust-grey px-5 pt-5 pb-5">
-          <h1 class="d-flex justify-content-center tech-font pt-5">
+          <h1 class="port-header d-flex justify-content-center tech-font pt-5">
             Portfolio
           </h1>
 
           <div
             class="
+              port-body
               row row-cols-1
               g-4
               h-100
@@ -215,7 +217,7 @@
             "
           >
             <div class="col">
-              <div class="card no-border w-100 mx-auto no-bg">
+              <div class="giftez-card card no-border w-100 mx-auto no-bg">
                 <div class="card-body mx-auto">
                   <a
                     href="https://giftez.herokuapp.com/"
@@ -313,10 +315,10 @@
               pt-5
             "
           >
-            <h1 class="d-flex justify-content-center tech-font">
+            <h1 class="contact-header d-flex justify-content-center tech-font">
               Now it's your turn to say hi.
             </h1>
-            <ul class="list-group mx-auto">
+            <ul class="contact-body list-group mx-auto">
               <li class="list-group-item no-border">
                 <a href="mailto:mbussert@gmail.com"
                   ><i class="fas fa-envelope-square fa-4x"></i
@@ -344,6 +346,9 @@
         </div>
       </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
